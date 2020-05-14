@@ -62,6 +62,7 @@ releases:
         vpn:
           internal: {{ env "PRITUNL_VPN_PORT" | default "16807" }}
           external: {{ env "PRITUNL_VPN_PORT" | default "16807" }}
+          external2: "16808"
 
     resources:
       limits:
